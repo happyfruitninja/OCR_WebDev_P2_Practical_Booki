@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: Raleway, sans-serif;
+
 }
 
 body {
@@ -15,6 +16,7 @@ a {
 a:hover {
   color: #0065FC;
 }
+
 
 nav {
   display: flex;
@@ -179,8 +181,12 @@ input[type="submit"] {
   margin: 10px;
 }
 
-content {
+main {
   background-color: red;
+}
+
+.stars{
+display:flex;
 }
 
 #acc {
@@ -257,6 +263,15 @@ input[type="button"] {
 
 .pop_group {}
 
+.pop_group_heading{
+  display: flex;
+  border: 3px dashed hotpink;
+}
+.pop_group_heading>i{
+max-width: 30px;
+max-height: 30px;
+}
+
 .pop_group_cards {
   margin: 10px;
   border-radius: 15px;
@@ -318,12 +333,15 @@ input[type="button"] {
 
 #act_2 {
   border: 4px dashed yellow;
-  height: 70%;
-  width: 90%;
+  object-fit: contain;
+
 }
 
 #act_2>img {
-  width: 90%;
+
+  max-height: 65%;
+  width: 100%;
+  max-width: 100%;
 }
 
 #act_3 {
@@ -332,7 +350,8 @@ input[type="button"] {
 }
 
 #act_3>img {
-  width: 90%;
+    height: 70%;
+  object-fit: contain;
 }
 
 #act_5, #act_6 {
