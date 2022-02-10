@@ -3,6 +3,7 @@
   font-family: Raleway, sans-serif;
   max-width: 950px;
   margin: auto;
+    border: 1px dashed black;
 }
 
 h3 {
@@ -17,28 +18,19 @@ p {
   font-size: 12px;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  color: #0065FC;
-}
 
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 5px 0;
+  margin: 5px;
   padding: 0 5px;
-  ;
   border: 3px dashed teal;
   align-items: center;
 }
 
 .logo {
-  padding: 0;
-  margin: 0;
+
+  margin: 5px;
 }
 
 .logo img {
@@ -50,7 +42,7 @@ nav {
 nav ul {
   display: flex;
   list-style-type: none;
-  margin: 0;
+  margin: 5px;
   border: 1px dashed red;
 }
 
@@ -62,8 +54,17 @@ nav ul>li:hover {
   border-top: 2px solid #0065FC;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #0065FC;
+}
+
 header {
-  margin: 0;
+  margin: 5px;
   border: 3px dashed black;
 }
 
@@ -210,8 +211,8 @@ input[type="submit"] {
 }
 
 main {
-  background-color: red;
-  padding: 5px 0;
+border: 2px dashed blue;
+  margin: 5px;
 }
 
 .stars {
@@ -228,7 +229,8 @@ main {
 }
 
 #acc {
-  margin-top: 5px;
+  margin: 5px;
+  border: 2px dashed blue;
 }
 
 .acc_container {
@@ -481,6 +483,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 5px;
+  border: 2px dashed blue;
 }
 
 footer div {
@@ -531,6 +535,9 @@ footer h3 {
  nav ul{
 
  }
+ nav ul>li:hover {
+   border-botoom: 2px solid #0065FC;
+ }
 
 
   header {
@@ -579,6 +586,7 @@ footer h3 {
 
   footer {
     display: block;
+
   }
 
   footer ul {
