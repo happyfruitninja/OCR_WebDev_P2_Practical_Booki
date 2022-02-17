@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=devide-width, initial-scale=1">
   </meta>
   <link rel="stylesheet" href="style.css" type="text/css">
-
   </link>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +17,7 @@
 <body>
   <nav>
     <div class="logo">
-      <img src="images/logo/Booki.png">
+      <img src="images/logo/Booki@3x.png">
     </div>
     <ul>
       <li><a href="#acc">Accomodations</a></li>
@@ -31,20 +30,26 @@
       <h3>Find a place for your dream vacation</h3>
       <p>Downtown for in nature</p>
       <div class="search_group">
-        <div class="searchbtn">
+        <div class="search_marker">
           <i class="fas fa-map-marker-alt"></i>
+
         </div>
         <form>
           <input type="text" name="" placeholder="Marseille, France">
-          <input type="submit" name="" value="Search">
+          <input class="submit" type="submit" name="" value="Search">
+          <div class="magGlass">
+            <i class="fas fa-search"></i>
+          </div>
         </form>
       </div>
     </div>
+
     <div class="filters_container">
       <h4>Filters</h4>
       <div class="filters_group">
         <div class="filters_options">
-          <div class="options_icon"><i class="fas fa-money-bill-wave"></i></div>
+          <div class="options_icon"><i class="fas fa-money-bill-wave"></i>
+          </div>
           <div class="options_text">Low Cost</div>
         </div>
         <div class="filters_options">
@@ -64,162 +69,158 @@
 
     <div class="info">
       <div class="info_icon"><i class="fas fa-info"></i></div>
-
-      <div>More than 500 accomodations are available in this city</div>
+      <p>More than 500 accomodations are available in this city</p>
     </div>
   </header>
 
   <main>
-    <div id="acc">
-      <div class="acc_container">
-        <div class="acc_group">
-          <div class="acc_group_heading">
-            <h3>Accomodations in Marseille</h3>
-          </div>
-          <div class="acc_group_cards">
-            <figure>
-              <img src="./images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="picture of a room starting at 25 euro per night">
-              <figcaption>
-                <h4>Auberge la Cannebiere</h4>
-                <p>Night starting at 25€</p>
-                <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="far fa-star"></i>
-                </div>
-              </figcaption>
-            </figure>
-            <figure>
-              <img src="./images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="picture of a room starting at 25 euro per night"></i>
-              <figcaption>
-                <h4>Hôtel du port</h4>
-                <p>Night starting at 52€</p>
-                <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-              </figcaption>
-            </figure>
-            <figure>
-              <img src="./images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="picture of a room starting at 25 euro per night">
-              <figcaption>
-                <h4>Les mouettes Hotel</h4>
-                <p>Night starting at 76€</p>
-                <div class="stars"><i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="far fa-star"></i>
-                </div>
-              </figcaption>
-            </figure>
-            <figure>
-              <img src="./images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="picture of a room starting at 25 euro per night">
-              <figcaption>
-                <h4>Hôtel de la mer</h4>
-                <p>night starting at 46€</p>
-                <div class="stars"><i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-                </div>
-              </figcaption>
-            </figure>
-            <figure>
-              <img src="./images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="picture of a room starting at 25 euro per night">
-              <figcaption>
-                <h4>Auberge Le Panier</h4>
-                <p>Night starting at 23€</p>
-                <div class="stars"> <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="far fa-star"></i>
-                </div>
-              </figcaption>
-            </figure>
-            <figure>
-              <img src="./images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="picture of a room starting at 25 euro per night">
-              <figcaption>
-                <h4>Hôtel chez Amina</h4>
-                <p>Night starting at 96€</p>
-                <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="acc_group_more">
-            <button type="botton">Show more</button>
-          </div>
+    <div class="acc_container" id="acc">
+      <div class="acc_group">
+        <div class="acc_group_heading">
+          <h3>Accomodations in Marseille</h3>
         </div>
-        <div class="pop_group">
-          <div class="pop_group_heading">
-            <h3>Most Popular</h3>
-            <i class="fas fa-chart-line "></i>
-          </div>
-          <div class="pop_group_cards">
-            <figure>
-              <img src="./images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="picture of a room starting at 25 euro per night">
-              <figcaption>
-                <h4>Morning Sun Hotel</h4>
-                <p>Night starting at 128€</p>
-                <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-              </figcaption>
-            </figure>
-            <figure>
-              <img src="./images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="picture of a room starting at 25 euro per night">
-              <figcaption>
-                <h4>Au coeur de l'eau Bed and Breakfast</h4>
-                <p>Night starting at 71€</p>
-                <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="far fa-star"></i>
-                </div>
-              </figcaption>
-            </figure>
-            <figure>
-              <img src="./images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="picture of a room starting at 25 euro per night">
-              <figcaption>
-                <h4>Tout bleu de Blanc Hotel</h4>
-                <p>Night starting at 68€</p>
-                <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="far fa-star"></i>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
+        <div class="acc_group_cards">
+          <figure>
+            <img src="./images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="picture of a room starting at 25 euro per night">
+            <figcaption>
+              <h4>Auberge la Cannebiere</h4>
+              <p>Night starting at 25€</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="./images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="picture of a room starting at 25 euro per night"></i>
+            <figcaption>
+              <h4>Hôtel du port</h4>
+              <p>Night starting at 52€</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="./images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="picture of a room starting at 25 euro per night">
+            <figcaption>
+              <h4>Les mouettes Hotel</h4>
+              <p>Night starting at 76€</p>
+              <div class="stars"><i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="./images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="picture of a room starting at 25 euro per night">
+            <figcaption>
+              <h4>Hôtel de la mer</h4>
+              <p>night starting at 46€</p>
+              <div class="stars"><i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="./images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="picture of a room starting at 25 euro per night">
+            <figcaption>
+              <h4>Auberge Le Panier</h4>
+              <p>Night starting at 23€</p>
+              <div class="stars"> <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="./images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="picture of a room starting at 25 euro per night">
+            <figcaption>
+              <h4>Hôtel chez Amina</h4>
+              <p>Night starting at 96€</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="acc_group_more">
+          <button type="botton">Show more</button>
+        </div>
+      </div>
+      <div class="pop_group">
+        <div class="pop_group_heading">
+          <h3>Most Popular</h3>
+          <i class="fas fa-chart-line "></i>
+        </div>
+        <div class="pop_group_cards">
+          <figure>
+            <img src="./images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="picture of a room starting at 25 euro per night">
+            <figcaption>
+              <h4>Morning Sun Hotel</h4>
+              <p>Night starting at 128€</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="./images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="picture of a room starting at 25 euro per night">
+            <figcaption>
+              <h4>Au coeur de l'eau Bed and Breakfast</h4>
+              <p>Night starting at 71€</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="./images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="picture of a room starting at 25 euro per night">
+            <figcaption>
+              <h4>Tout bleu de Blanc Hotel</h4>
+              <p>Night starting at 68€</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </figcaption>
+          </figure>
         </div>
       </div>
     </div>
-
-    <div id="act">
+    <div class="act_container" id="act">
       <h3>Activities in Marseille</h3>
-      <div class="act_group_cards">
-        <div class="card_full">
+      <div class="act_group">
+        <div class="act_card_full">
           <figure>
             <img src="./images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="image of a yacht dock">
             <figcaption>
@@ -227,8 +228,8 @@
             </figcaption>
           </figure>
         </div>
-        <div class="card_stacked">
-          <div class="act_2">
+        <div class="act_card_stacked">
+          <div class="act_card act_2">
             <figure>
               <img src="./images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="image of a fort on rocky hill">
               <figcaption>
@@ -236,7 +237,7 @@
               </figcaption>
             </figure>
           </div>
-          <div class="act_3">
+          <div class="act_card act_3">
             <figure>
               <img src="./images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="image of a water fort">
               <figcaption>
@@ -245,7 +246,7 @@
             </figure>
           </div>
         </div>
-        <div class="card_full">
+        <div class="act_card_full act_4">
           <figure>
             <img src="./images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="image of ocean from national park">
             <figcaption>
@@ -253,8 +254,8 @@
             </figcaption>
           </figure>
         </div>
-        <div class="card_stacked">
-          <div class="act_5">
+        <div class="act_card_stacked">
+          <div class="act_card act_5">
             <figure>
               <img src="./images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="image of Notre Dame de la Garde">
               <figcaption>
@@ -262,7 +263,7 @@
               </figcaption>
             </figure>
           </div>
-          <div class="act_6">
+          <div class="act_card act_6">
             <figure>
               <img src="./images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="image of long champ park">
               <figcaption>
@@ -276,28 +277,30 @@
   </main>
 
   <footer>
-    <div class="about">
-      <h3>About</h3>
-      <ul>
-        <li><a href="#">Site Map</a></li>
-        <li><a href="#">General Terms and Conditions</a></li>
-        <li><a href="#">Data and Privacy</a></li>
-      </ul>
-    </div>
-    <div class="ourAccomocations">
-      <h3>Our Accomodation</h3>
-      <ul>
-        <li><a href="#">Quality Assessment</a></li>
-        <li><a href="#">You have a hotel?</a></li>
-      </ul>
-    </div>
-    <div class="assistance">
-      <h3>Assistance</h3>
-      <ul>
-        <li><a href="#">Help Desk</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </div>
+    <div class="other_group">
+      <div class="about">
+        <h3>About</h3>
+        <ul>
+          <li><a href="#">Site Map</a></li>
+          <li><a href="#">General Terms and Conditions</a></li>
+          <li><a href="#">Data and Privacy</a></li>
+        </ul>
+      </div>
+      <div class="ourAccomocations">
+        <h3>Our Accomodation</h3>
+        <ul>
+          <li><a href="#">Quality Assessment</a></li>
+          <li><a href="#">You have a hotel?</a></li>
+        </ul>
+      </div>
+      <div class="assistance">
+        <h3>Assistance</h3>
+        <ul>
+          <li><a href="#">Help Desk</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>    
   </footer>
 </body>
 
