@@ -250,7 +250,7 @@ input[type="text"] {
 main {
   margin: 0 auto;
   padding: 0;
-  max-width: 950px;
+  max-width: 992px;
 }
 
 .stars {
@@ -269,10 +269,9 @@ main {
 .acc_container {
   display: flex;
   flex-wrap: wrap;
-  margin: 0px;
-  justify-content: space-between;
+    justify-content: space-between;
   padding: 15px;
-  max-width: 950px;
+
 }
 
 .acc_container img {}
@@ -507,7 +506,7 @@ footer {
   flex-wrap: wrap;
   justify-content: flex-start;
   margin: 0 auto;
-  max-width: 950px;
+  max-width: 992px;
 }
 
 .other_group>div {
